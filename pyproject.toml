@@ -1,0 +1,18 @@
+[project]
+name = "flatlib"
+version = "0.2.4"
+description = "fork of flatlib 0.2.3"
+authors = [
+    {name = "Nao-Y1996",email = "60519909+Nao-Y1996@users.noreply.github.com"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyswisseph (>=2.10.3.2,<3.0.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
