@@ -1,6 +1,6 @@
 # flatlib
 
-Flatlib is a python library for Traditional Astrology.
+This is forked repository of [Flatlib]([https://pypi.python.org/pypi/flatlib]) library for Traditional Astrology.
 
 ```python
 
@@ -16,16 +16,14 @@ Flatlib is a python library for Traditional Astrology.
 
 ## Documentation
 
-Flatlib's documentation is available at [http://flatlib.readthedocs.org/](http://flatlib.readthedocs.org/).
+original Flatlib's documentation is available at [http://flatlib.readthedocs.org/](http://flatlib.readthedocs.org/).
 
 
 ## Installation
 
-Flatlib is a Python 3 package, make sure you have Python 3 installed on your system. 
+Add following line to your `pyproject.toml` file:
 
-You can install flatlib with `pip3 install flatlib` or download the latest stable version from [https://pypi.python.org/pypi/flatlib](https://pypi.python.org/pypi/flatlib) and install it with `python3 setup.py install`. 
-
-
-## Development
-
-You can clone this repository or download a zip file using the right side buttons. 
+```toml
+[tool.poetry.dependencies]
+flatlib = { git = "https://github.com/Nao-Y1996/flatlib.git", tag = "v0.2.4" }
+```
